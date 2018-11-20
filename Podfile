@@ -6,7 +6,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 use_frameworks!
 
-pod "B_Category", :path => "../B_Category"
+pod "B_Category"
 
 target 'A' do
 
