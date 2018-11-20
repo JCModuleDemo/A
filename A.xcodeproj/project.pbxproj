@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF0AEDBBB52FB365DC977A78 /* Pods_A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56687146DA5D468E63CD9F6B /* Pods_A.framework */; };
 		FC7D66C921A3AB4F00A32F32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7D66C821A3AB4F00A32F32 /* AppDelegate.m */; };
 		FC7D66CC21A3AB4F00A32F32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7D66CB21A3AB4F00A32F32 /* ViewController.m */; };
 		FC7D66CF21A3AB4F00A32F32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7D66CD21A3AB4F00A32F32 /* Main.storyboard */; };
 		FC7D66D121A3AB5900A32F32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC7D66D021A3AB5900A32F32 /* Assets.xcassets */; };
 		FC7D66D421A3AB5900A32F32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7D66D221A3AB5900A32F32 /* LaunchScreen.storyboard */; };
 		FC7D66D721A3AB5900A32F32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7D66D621A3AB5900A32F32 /* main.m */; };
-		FC7D66E121A3AB5A00A32F32 /* ATests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7D66E021A3AB5A00A32F32 /* ATests.m */; };
-		FC7D66EC21A3AB5A00A32F32 /* AUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7D66EB21A3AB5A00A32F32 /* AUITests.m */; };
+		FC7D672521A3B05800A32F32 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7D672421A3B05800A32F32 /* AViewController.m */; };
+		FC7D672921A3B59C00A32F32 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7D672821A3B59C00A32F32 /* Target_A.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F1824D3897BC4783DF69EC2 /* Pods-A.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A.debug.xcconfig"; path = "Pods/Target Support Files/Pods-A/Pods-A.debug.xcconfig"; sourceTree = "<group>"; };
+		20B7AB73B323004174684A14 /* Pods-A.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A.release.xcconfig"; path = "Pods/Target Support Files/Pods-A/Pods-A.release.xcconfig"; sourceTree = "<group>"; };
+		56687146DA5D468E63CD9F6B /* Pods_A.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_A.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC7D66C421A3AB4F00A32F32 /* A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC7D66C721A3AB4F00A32F32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC7D66C821A3AB4F00A32F32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,11 +50,11 @@
 		FC7D66D521A3AB5900A32F32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC7D66D621A3AB5900A32F32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FC7D66DC21A3AB5A00A32F32 /* ATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC7D66E021A3AB5A00A32F32 /* ATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATests.m; sourceTree = "<group>"; };
-		FC7D66E221A3AB5A00A32F32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC7D66E721A3AB5A00A32F32 /* AUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC7D66EB21A3AB5A00A32F32 /* AUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AUITests.m; sourceTree = "<group>"; };
-		FC7D66ED21A3AB5A00A32F32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7D672321A3B05800A32F32 /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		FC7D672421A3B05800A32F32 /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		FC7D672721A3B59C00A32F32 /* Target_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+		FC7D672821A3B59C00A32F32 /* Target_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF0AEDBBB52FB365DC977A78 /* Pods_A.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +83,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2915DCB73CDDCE69E42CBADD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F1824D3897BC4783DF69EC2 /* Pods-A.debug.xcconfig */,
+				20B7AB73B323004174684A14 /* Pods-A.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC7112C30529E25B59AC08C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56687146DA5D468E63CD9F6B /* Pods_A.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FC7D66BB21A3AB4F00A32F32 = {
 			isa = PBXGroup;
 			children = (
 				FC7D66C621A3AB4F00A32F32 /* A */,
-				FC7D66DF21A3AB5A00A32F32 /* ATests */,
-				FC7D66EA21A3AB5A00A32F32 /* AUITests */,
 				FC7D66C521A3AB4F00A32F32 /* Products */,
+				2915DCB73CDDCE69E42CBADD /* Pods */,
+				DC7112C30529E25B59AC08C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +123,7 @@
 		FC7D66C621A3AB4F00A32F32 /* A */ = {
 			isa = PBXGroup;
 			children = (
+				FC7D671F21A3B00700A32F32 /* A */,
 				FC7D66C721A3AB4F00A32F32 /* AppDelegate.h */,
 				FC7D66C821A3AB4F00A32F32 /* AppDelegate.m */,
 				FC7D66CA21A3AB4F00A32F32 /* ViewController.h */,
@@ -114,22 +137,23 @@
 			path = A;
 			sourceTree = "<group>";
 		};
-		FC7D66DF21A3AB5A00A32F32 /* ATests */ = {
+		FC7D671F21A3B00700A32F32 /* A */ = {
 			isa = PBXGroup;
 			children = (
-				FC7D66E021A3AB5A00A32F32 /* ATests.m */,
-				FC7D66E221A3AB5A00A32F32 /* Info.plist */,
+				FC7D672621A3B55700A32F32 /* Targets */,
+				FC7D672321A3B05800A32F32 /* AViewController.h */,
+				FC7D672421A3B05800A32F32 /* AViewController.m */,
 			);
-			path = ATests;
+			path = A;
 			sourceTree = "<group>";
 		};
-		FC7D66EA21A3AB5A00A32F32 /* AUITests */ = {
+		FC7D672621A3B55700A32F32 /* Targets */ = {
 			isa = PBXGroup;
 			children = (
-				FC7D66EB21A3AB5A00A32F32 /* AUITests.m */,
-				FC7D66ED21A3AB5A00A32F32 /* Info.plist */,
+				FC7D672721A3B59C00A32F32 /* Target_A.h */,
+				FC7D672821A3B59C00A32F32 /* Target_A.m */,
 			);
-			path = AUITests;
+			path = Targets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC7D66F021A3AB5A00A32F32 /* Build configuration list for PBXNativeTarget "A" */;
 			buildPhases = (
+				EB788538F89AABDCAA675CDB /* [CP] Check Pods Manifest.lock */,
 				FC7D66C021A3AB4F00A32F32 /* Sources */,
 				FC7D66C121A3AB4F00A32F32 /* Frameworks */,
 				FC7D66C221A3AB4F00A32F32 /* Resources */,
+				3F1C79A9978C774C87A84A8E /* [CP] Embed Pods Frameworks */,
+				8CAC318F0A9A9152005F8D4E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,12 +284,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3F1C79A9978C774C87A84A8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-A/Pods-A-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/B_Category/B_Category.framework",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/B_Category.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-A/Pods-A-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CAC318F0A9A9152005F8D4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-A/Pods-A-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB788538F89AABDCAA675CDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-A-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FC7D66C021A3AB4F00A32F32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC7D672521A3B05800A32F32 /* AViewController.m in Sources */,
 				FC7D66CC21A3AB4F00A32F32 /* ViewController.m in Sources */,
+				FC7D672921A3B59C00A32F32 /* Target_A.m in Sources */,
 				FC7D66D721A3AB5900A32F32 /* main.m in Sources */,
 				FC7D66C921A3AB4F00A32F32 /* AppDelegate.m in Sources */,
 			);
@@ -272,7 +357,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC7D66E121A3AB5A00A32F32 /* ATests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +364,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC7D66EC21A3AB5A00A32F32 /* AUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,15 +516,13 @@
 		};
 		FC7D66F121A3AB5A00A32F32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F1824D3897BC4783DF69EC2 /* Pods-A.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W6K9Q22JTP;
 				INFOPLIST_FILE = A/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zjhcsoft.A;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,15 +531,13 @@
 		};
 		FC7D66F221A3AB5A00A32F32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20B7AB73B323004174684A14 /* Pods-A.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W6K9Q22JTP;
 				INFOPLIST_FILE = A/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zjhcsoft.A;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -472,11 +551,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W6K9Q22JTP;
 				INFOPLIST_FILE = ATests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zjhcsoft.ATests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -491,11 +566,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W6K9Q22JTP;
 				INFOPLIST_FILE = ATests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zjhcsoft.ATests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -509,11 +580,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W6K9Q22JTP;
 				INFOPLIST_FILE = AUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zjhcsoft.AUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -527,11 +594,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W6K9Q22JTP;
 				INFOPLIST_FILE = AUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zjhcsoft.AUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
